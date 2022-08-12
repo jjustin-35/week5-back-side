@@ -1,10 +1,95 @@
----
-title: Assignment
-layout: ./app/layout.ejs
-engine: ejs
-current: Assignment
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="d-flex">
+    <aside class="py-4 bg-light min-vh-100 w-25 d-flex flex-column justify-content-between">
+      <nav class="align-items-start">
+        <img src="./assets/images/logo-ANSWER.svg" alt="ANSWER-logo" class="mb-4 navbar-brand">
+      <ul class="list-unstyled">
+        <li class="mb-4 ps-4  ">
+          <a href="#" class="text-reset text-decoration-none">
+            <span class="material-icons me-3 align-middle">assessment</span>
+            Dashboard
+          </a>
+        </li>
+        <li class="mb-4 ps-4  ">
+          <a href="#" class="text-reset text-decoration-none" >
+            <span class="material-icons me-3 align-middle">forum</span>
+            Question</a>
+        </li>
+        <li class='mb-4 ps-4 aside--active'><a href=#  class="text-reset text-decoration-none">
+          <span class="material-icons me-3 align-middle">assignment</span>
+          Assignment
+        </a>
+        </li>
+        <li class='mb-4 ps-4 '>
+          <a href="#" class="text-reset text-decoration-none">
+            <span class="material-icons me-3 align-middle">video_library</span>
+            Course
+          </a>
+        </li>
+
+        <li class="mb-4 ps-4 ">
+          <a href=./Admin.html  class="text-reset text-decoration-none">
+            <span class="material-icons me-3 align-middle">people</span>
+            Admin
+          </a>
+        </li>
+
+        <li class='ps-4 '><a href="#" class="text-reset text-decoration-none"><span class="material-icons me-3 align-middle">settings</span>Settings</a></li>
+      </ul>
+      </nav>
+      <div class="my-account d-flex">
+        <img src="./assets/images/andychen.jpeg" alt="andychen" class="thumbnail rounded-circle me-3">
+        <div class="my-account_info">
+          <p class="text-black mb-0 fw-bold fs-6 lh-base">Andy Chen</p>
+          <p class="my-account_info__email mb-0 text-secondary">andy0401@mail.com</p>
+        </div>
+      </div>
+    </aside>
+    <main class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid p-4">
+          <h2 class="navbar-brand text-dark fs-4 lh-33 fw-bold me-5">Assignment </h2>
+
+          
+            <div class="d-flex justify-content-between w-100">
+              
+                <div class="navbar-nav dropdown">
+                  <div class="nav-item">
+                    <a href="#" class="nav-link fs-6 text-dark lh-base" href="#" id="kindofCourse" role="button" data-bs-toggle="dropdown" aria-expanded="false">All Course <span class="material-icons align-middle">expand_more</span></a>
+                    <ul class="dropdown-menu" aria-labeledby="kindofCourse">
+                      <li class="dropdown-item">Course1</li>
+                      <li class="dropdown-item">Course2</li>
+                    </ul>
+                  </div>
+                </div>
+               
+
+
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link material-icons text-dark text-decoration-none align-middle">search</a></li>
+                <li class="nav-item"><a href="#" class="nav-link material-icons text-dark text-decoration-none align-middle">notifications_active</a></li>
+              </ul>
+            </div> 
+        </div>
+      </nav>
+
+      
 <section class="d-flex p-4">
   <div class="me-3 assignmentSidebar">
     <div class="dropdown">
@@ -115,4 +200,11 @@ current: Assignment
     </div>
     </div>
   </div>
-</section>
+</section> 
+      
+    </main>
+  </div>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+</html>
