@@ -1,0 +1,118 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: Assignment
+---
+
+<section class="d-flex p-4">
+  <div class="me-3 assignmentSidebar">
+    <div class="dropdown">
+      <a class="text-decoration-none text-black fw-bold" href="#" id="kindofMsg" role="button" data-bs-toggle="dropdown" aria-expanded="true">All(4)<span class="material-icons text-success align-middle">expand_more</span></a>
+      <ul class="p-0 dropdown-menu w-100 show" aria-labelledby="kindofMsg">
+        <li>
+          <button class="w-100 d-flex justify-content-between p-12 border border-grays-400 text-black active">
+            <div class="text-start">
+              <p class="text-dark fz-12 lh-base mb-0">Chapter Assignment 2</p>
+              <h3 class="fs-5 lh-base mb-0">Please check this file…</h3>
+            </div>
+            <div class="text-end">
+              <p class="text-secondary mb-0">4 hrs ago</p>
+              <p class="text-dark mb-0">Emily Wang</p>
+            </div>
+          </button>
+        </li>
+        <li>
+          <button class="w-100 d-flex justify-content-between p-12 border border-grays-400 text-black bg-white">
+            <div class="text-start">
+              <p class="text-dark fz-12 lh-base mb-0">Chapter Assignment 2</p>
+              <h3 class="fs-5 lh-base mb-0">Please check this file…</h3>
+            </div>
+            <div class="text-end">
+              <p class="text-secondary mb-0">4 hrs ago</p>
+              <p class="text-dark mb-0">Emily Wang</p>
+            </div>
+          </button>
+        </li>
+        <li>
+          <button class="w-100 d-flex justify-content-between p-12 border border-grays-400 text-black bg-white">
+            <div class="text-start">
+              <p class="text-dark fz-12 lh-base mb-0">Chapter Assignment 2</p>
+              <h3 class="fs-5 lh-base mb-0">Please check this file…</h3>
+            </div>
+            <div class="text-end">
+              <p class="text-secondary mb-0">4 hrs ago</p>
+              <p class="text-dark mb-0">Emily Wang</p>
+            </div>
+          </button>
+        </li>
+        <li>
+          <button class="w-100 d-flex justify-content-between p-12 border border-grays-400 text-black bg-white">
+            <div class="text-start">
+              <p class="text-dark fz-12 lh-base mb-0">Chapter Assignment 2</p>
+              <h3 class="fs-5 lh-base mb-0">Please check this file…</h3>
+            </div>
+            <div class="text-end">
+              <p class="text-secondary mb-0">4 hrs ago</p>
+              <p class="text-dark mb-0">Emily Wang</p>
+            </div>
+          </button>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="assignmentMain">
+    <p class="text-end text-secondary m-0">2 comments</p>
+    <div class="header bg-light p-3 d-flex justify-content-between align-items-center border border-grays-400">
+      <div class="title">
+        <p class="m-0">Chapter Assignment 2 / HTML&CSS</p>
+        <h3 class="m-0 fs-5">Please check this file for me, thanks!</h3>
+      </div>
+      <div class="opt"><span class="material-icons align-middle">more_vert</span></div>
+    </div>
+    <div class="border border-grays-400 mb-4"> 
+    <div class="content p-3 pb-0">
+      <div>
+        <div class="info d-flex align-items-center mb-3">
+          <img src="./assets/images/emilywang.jpeg" alt="emilywang" class="rounded-circle info__pic me-2">
+          <div>
+            <p class="m-0 fw-bold">Emily Wang</p>
+            <p class="m-0">10:38 AM (4 hours ago)</p>
+          </div>
+          
+        </div>
+        <div class="ml-48 me-3 pb-3">
+          <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+          <button href="" class="bg-light btn border border-grays-400"><span class="material-icons align-middle">attach_file</span>HW-2-David.zip</button>
+        </div>
+      </div>
+    </div>
+    <div class="reply-box">
+      <ul class="tools nav bg-light py-3 px-4 border border-start-0 border-end-0 border-grays-400">
+        <li class="dropdown nav-item me-4">
+          <a class="text-reset text-decoration-none dropdown-toggle" id="kindofText" role="button" data-bs-toggle="dropdown" aria-expanded="true">Body Text</a>
+          <ul class="dropdown-menu" aria-labelledby="kindofText">
+            <li class="dropdown-item">text1</li>
+            <li class="dropdown-item">text2</li>
+          </ul>
+        </li>
+        <li class="nav-item me-4"><a href="" class="text-reset text-decoration-none"><span class="material-icons align-middle">format_bold</span></a></li>
+        <li class="nav-item me-4"><a href="" class="text-reset text-decoration-none"><span class="material-icons align-middle">format_italic</span></a></li>
+        <li class="nav-item me-4"><a href="" class="text-reset text-decoration-none"><span class="material-icons align-middle">format_list_bulleted</span></a></li>
+        <li class="nav-item me-4"><a href="" class="text-reset text-decoration-none"><span class="material-icons align-middle">format_list_numbered</span></a></li>
+        <li class="nav-item me-4"><a href="" class="text-reset text-decoration-none"><span class="material-icons align-middle">insert_photo</span></a></li>
+        <li class="nav-item me-4"><a href="" class="text-reset text-decoration-none"><span class="material-icons align-middle">link</span></a></li>
+        <li class="nav-item"><a href="" class="text-reset text-decoration-none"><span class="material-icons align-middle">code</span></a></li>
+      </ul>
+      <textarea name="replyEditor" id="" cols="30" rows="10" class="replyEditor w-100 border-0 px-4 py-3" placeholder="Reply an Answer..."></textarea>
+      <div class="d-flex justify-content-end px-4 py-3">
+        <a href="./index.html" class="btn btn-outline-success mr-8 pl-32 pr-32">Cancel</a>
+        <a href="./index.html" class="btn btn-success pl-32 pr-32">Reply</a>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
